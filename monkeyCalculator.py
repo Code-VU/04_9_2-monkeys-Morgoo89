@@ -4,6 +4,13 @@ def calculateTime():
     monkey_one = input("Is the first monkey smiling?:  ")
     monkey_two = input("Is the second monkey smiling?: ")
 
+    if monkey_one.upper() == "Y" and monkey_two.upper() == "Y":
+        print("Uh Oh! We're in trouble!")
+    elif monkey_one.upper() == "N" and monkey_two.upper() == "N":
+        print("Uh Oh! We're in trouble!")
+    else:
+        print("Yay! We're going to have a good day!")
+
     # end assignment
 
 
